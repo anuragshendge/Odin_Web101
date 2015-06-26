@@ -1,11 +1,19 @@
-html, body, #wrapper {
-   height:100%;
-   width: 100%;
-   margin: 0;
-   padding: 0;
-   border: 0;
+div {
+      position:fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -9em; 
+      margin-left: -15em;
+      height: 95px;
+      width: 269px;
+      border-radius: 5px;
+      text-align: center;
+      color: #FFFFFF;
+      font-family: Verdana, Arial, Sans-Serif;
+      opacity: 0.2;
 }
-#wrapper td {
-   vertical-align: middle;
-   text-align: center;
+img{
+  padding-top: 112px
+  height: 95px;
+  width: 269px;
 }
