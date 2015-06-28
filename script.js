@@ -1,3 +1,5 @@
+
+/*
 $(document).ready(function(){
 
   $('img').mouseenter(function(){
@@ -9,3 +11,4 @@ $(document).ready(function(){
   });
 
 });
+*/
