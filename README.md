@@ -2,5 +2,10 @@
 Project HTML/CSS
 The google Homepage!
 The Odin projects' Web 101- first project to simulate the google homepage[design and layout, not the functionality of course!]
-Link to the original article I followed:
-http://www.theodinproject.com/web-development-101/html-css?ref=lc-pb
+
+My finished result is [here](http://htmlpreview.github.io/?https://github.com/anuragshendge/google-homepage/blob/master/index.html)
+
+ 
+ I followed [The Odin Project] (http://www.theodinproject.com/web-development-101/html-css?ref=lc-pb)
+ 
+ 
