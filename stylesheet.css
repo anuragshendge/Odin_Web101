@@ -1,17 +1,47 @@
+a{
+  color: #404040;
+	text-decoration: none;
+}
+
+a:hover {
+
+	text-decoration: underline;
+}
+
+
+#header_div{
+  position: relative;
+	display:inline-block;
+	top: -5px;
+  margin-top: 8px;
+  float: right;
+  margin-right: 22px;
+  font-family: arial;
+  font-size: 15px;
+}
+
+
+.heading{
+  opacity: 0.6;
+	position: relative;
+	top: 10px;
+}
+
 #logo_div {
   clear: both;
-  	padding-top: 135px;
-  	width: 100%;
-
+	padding-top: 135px;
+	width: 100%;
 }
-img{
+
+#logo{
   height: 95px;
   width: 289px;
 }
 
 #search_box_input{
-  border: 2px solid;
-  border-radius: 2px;
+  -webkit-appearance: none
+  border: 2px solid #dadada;
+  border-radius: 3px;
   position:relative;
   width: 559px;
   height: 25px;
@@ -21,6 +51,12 @@ img{
   background-image: url(https://cdn-images.xda-developers.com/direct/1/7/5/9/8/9/4/microphone-3-xxl.png);
   opacity: 0.6;
 }
+#search_box_input:focus{
+  outline: 2px;
+    border-color: #89cff0;
+    box-shadow: 0 0 6px #9ecaed;
+}
+
 #search_box_div{
   height: 102px;
 }
@@ -38,7 +74,7 @@ img{
 
 
 .b1_class{
-  height: 40px;
+  height: 35px;
   line-height: 27px;
   border-radius: 3px;
   font-family:arial, sans-serif;
