@@ -7,12 +7,12 @@ $(document).ready(function(){
 	hiddenContent.slideUp(0,function(){
 
 
-		header.hover(function(){
-			hiddenContent.slideDown(1000);
+		header.click(function(){
+			hiddenContent.slideDown(500);
 			header.hide(300);
-			hiddenContent.mouseleave(function(){
+			hiddenContent.click(function(){
 				header.show(300);
-				hiddenContent.slideUp(1000);	
+				hiddenContent.slideUp(500);	
 
 			});
 

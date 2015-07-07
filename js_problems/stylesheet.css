@@ -32,8 +32,9 @@ body{
 	border-right: 2px solid #3D3D3D;
 	border-bottom: 2px solid #3D3D3D;
 	background-color: #2d2d2d;
-  font-family:serif;
   box-shadow: 3px 3px 5px 3p #878787;
+  font-family: helvetica;
+  
 }
 #logo{
 	float: left;
@@ -44,16 +45,11 @@ body{
  
   text-decoration: none;
   font-size: 17px;
-  font-weight: 500;
-  font-variant: small-caps;
+  font-weight: bold;
+  2000-variant: small-caps;
   letter-spacing: 1px;
   color: #aaa;
 }
 #info_tab{
-
     margin-right: 200px;
-
-
-
-
 }
