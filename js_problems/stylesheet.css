@@ -1,0 +1,49 @@
+html{
+  font-family: arial,sans-serif;
+  color: #e2e2e2;
+}
+body{
+  background: #ccc;
+  margin: 0;
+}
+#container{
+  width: auto;
+  height: 660px;
+}
+
+#header{
+  width: 98%%;
+  height: 50px;
+  border-bottom: 3px solid #da1f3b;
+  border-right: 3px solid #da1f3b;
+  border-left:3px solid #da1f3b;
+  border-bottom-right-radius: 5px; 
+  border-bottom-left-radius:5px;
+  background: #3D3D3D;	
+}
+
+#intro{
+	display: none;
+	width: 60%;
+	height: 200px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	background-color: blue;
+}
+#logo{
+	float: left;
+	margin: 10px;
+}
+
+#logo_span{
+ 
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  color: #aaa;
+}
