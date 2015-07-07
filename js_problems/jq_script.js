@@ -8,10 +8,12 @@ $(document).ready(function(){
 
 
 		header.hover(function(){
-			hiddenContent.slideDown(400);
+			hiddenContent.slideDown(1000);
+			header.hide(300);
+			hiddenContent.mouseleave(function(){
+				header.show(300);
+				hiddenContent.slideUp(1000);	
 
-			header.mouseleave(function(){
-				hiddenContent.slideUp(400);	
 			});
 
 		});
