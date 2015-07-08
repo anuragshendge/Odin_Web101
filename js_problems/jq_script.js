@@ -1,8 +1,7 @@
 $(document).ready(function(){
-
 	var hiddenContent = $('#intro');
 	var header =$("#header");
-
+		
 
 	hiddenContent.slideUp(0,function(){
 
@@ -10,7 +9,8 @@ $(document).ready(function(){
 		header.click(function(){
 			hiddenContent.slideDown(500);
 			header.hide(300);
-			hiddenContent.click(function(){
+
+			hiddenContent.mouseleave(function(){
 				header.show(300);
 				hiddenContent.slideUp(500);	
 
